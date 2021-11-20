@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="movingCharacter.js" defer></script>
+<title>Final Project# Festive Arraymation</title>
+<style>
+#park {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-image: url('OIP.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+       }
+#horse {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -500px;
+    left: -500px;
+       }
+#text {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -500px;
+    left: -500px;
+    border: 3px dashed #000000;
+    min-width: 8cm;
+    max-height: 1cm;
+    color: #000000;
+    background-color:lightskyblue;
+    text-align: center;
+     } 
+#boat{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -500px;
+    left: -500px;
+    }
+#butterfly{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -500px;
+    left: -500px;
+    }
+#black_sheep{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -500px;
+    left: -500px;
+    }
+#chicken{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -500px;
+    left: -500px;
+    }
+#windmill{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -500px;
+    left: -500px;
+    }
+</style>
+</head>
+<body>
+<p><button onclick="move()">Move It!</button>&nbsp;<button onclick="stopMoving()">Stop!</button></p>
+<div id="container">
+<div id="park"></div>
+<img id="horse" src="runninge0000.png" alt="horse" />
+<h1 id="text"></h1>
+<img id="boat" src="fährt003.png" alt="boat" />
+<img id="butterfly" src="butterflyn0000.png" alt="butterfly" />
+<img id="black_sheep" src="eatinge0000.png" alt="black_sheep" />
+<img id="chicken" src="pickings0000.png" alt="chicken" />
+<img id="windmill" src="pickings0000.png" alt="windmill" />
+</div>
+</body>
+</html>
